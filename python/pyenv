@@ -1,0 +1,10 @@
+pyenv global 3.9.6
+
+pyenv local 3.9.6
+
+
+pyenv versions
+
+
+python --version
+
