@@ -8,3 +8,20 @@ pyenv versions
 
 python --version
 
+---------------------
+switch global version 
+
+pyenv global version
+
+
+----------------- switch to local version
+cd /path/to/your/project
+pyenv local <version>
+
+
+set python version for current shell
+pyenv shell <version>
+
+
+
+
