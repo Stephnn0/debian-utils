@@ -1,0 +1,13 @@
+[Unit]
+Description=Set wallpaper with xwallpaper
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/xwallpaper --center /home/system-1/Downloads/wall1.jpg
+Restart=on-failure
+User=system-1
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/system-1/.Xauthority
+
+[Install]
+WantedBy=default.target
