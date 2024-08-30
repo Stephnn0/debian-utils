@@ -1,0 +1,27 @@
+Kernel Modules: Write and load kernel modules to extend the functionality of the Linux kernel, such as adding new device drivers or filesystems.
+
+Device Drivers: Develop drivers for hardware devices to communicate with the kernel, enabling support for new or custom hardware.
+
+System Calls: Create or modify system calls to add new functionality or change how the kernel handles requests from user-space applications.
+
+Kernel Configuration: Configure and build custom kernels tailored to specific needs, optimizing for performance or adding experimental features.
+
+Kernel Debugging: Use tools to debug and analyze kernel behavior, including setting up kernel debugging options or using kernel debugging tools like kdb, gdb, or ftrace.
+
+System Services: Develop and manage system services using systemd or other init systems. This includes writing service units and handling service dependencies.
+
+Daemons: Create background processes or daemons that perform various tasks, such as managing system resources or monitoring system health.
+
+Inter-process Communication (IPC): Implement IPC mechanisms like pipes, message queues, semaphores, and shared memory for communication between processes.
+
+Filesystem Operations: Develop or modify filesystems, including creating new virtual filesystems or modifying existing ones.
+
+Networking: Customize network stack behavior, including developing network protocols, tuning network performance, or implementing custom network services.
+
+Security Modules: Write or modify Linux Security Modules (LSMs) like SELinux or AppArmor to enforce security policies.
+
+Resource Management: Control and manage system resources, such as implementing custom schedulers or resource limiters.
+
+Performance Tuning: Optimize system performance by tuning kernel parameters, analyzing performance metrics, or using performance-enhancing features.
+
+Custom Init Systems: Develop or configure custom init systems or alternatives to systemd, if needed for specific environments.
